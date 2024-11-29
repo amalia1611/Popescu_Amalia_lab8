@@ -1,0 +1,154 @@
+.nume {
+    color: #dc3d1b;
+    background-color: #a5a4a5;
+    font-family: arial;
+    margin-top: 100px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    text-decoration: underline black 1px;
+  }
+  .mail {
+    padding-right: 0px;
+    padding-left: auto;
+    text-align: right;
+    color: #decb2c;
+    text-decoration: underline ;
+    text-decoration-color: #decb2c;
+  }
+  table,
+  th,
+  tr,
+  td {
+    border-style: solid;
+    border-color: #dc3d1b;
+    border-collapse: collapse;
+    border-width: 3px;
+    margin-left: auto;
+    margin-left: right;
+    text-align: center;
+  }
+  .sp {
+    color: #726550;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 17px;
+    font-family: Arial;
+  }
+  .st {
+    text-align: center;
+    color: #726550;
+    text-decoration: underline;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .crt {
+    text-align: left;
+    color: #726550;
+    text-decoration: underline;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .chenar {
+    border-style: solid;
+    
+    border-color: #726550;
+    background-color: #ddd7cf;
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: right;
+    text-align: center;
+    margin-top: 100px;
+  }
+  .diagrama {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .a {
+    text-align: left;
+  }
+  .b {
+    text-align: left;
+  }
+  .c {
+    text-align: left;
+  }
+  .d {
+    text-align: left;
+  }
+  .rs {
+    color: #726550;
+    text-decoration: underline;
+    font-family: Arial;
+  }
+  .CPU {
+    height: 80%;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    margin-top: 20px;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   }
+  
+   
+
+
+  
+  
+    
+  
+  .slideshow{
+    position: relative;
+    width: 700px;
+    margin: 0 auto;
+    
+  } 
+  .slideshow img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .slideshow img.active{
+    opacity: 1;
+  }
+  #resurse{
+    
+    
+  }
+ #poze{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    border:solid;
+    border-color:#726550 ;
+    background-color: #607f99;
+    height: 200px;
+    
+    
+
+ }
+ 
+
+#poze img{
+  width: 200px;
+  height: 80%;
+  display: flex;
+  
+  
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  transition: opacity 0.5s ease-in-out;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
